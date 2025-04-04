@@ -1,0 +1,144 @@
+.form-card { 
+   align-items: center;
+  width: 300px;
+  margin: auto;
+  background-image: linear-gradient(163deg, #02f1db 0%, #0071e8 100%);
+  border-radius: 25px;
+  transition: all .3s;
+  font-family:monospace;
+  justify-content: center;
+   color: rgb(2, 229, 223);
+}
+
+.form-card-2 {
+  color: rgb(2, 229, 223);
+  border-radius: 0;
+  transition: all .2s;
+font-family:monospace;
+justify-content: center;
+}
+
+.form-card-2:hover {
+	 color: rgb(2, 229, 223);
+justify-content: center;
+  transform: scale(0.99);
+  border-radius: 25px;
+font-family:monospace;
+}
+
+.form-card:hover {justify-content: center; box-shadow: 0px 0px 30px 1px rgba(9, 207, 199, 0.3); align-items: center;font-family:monospace;}
+
+.form {
+	 color: rgb(2, 229, 223);
+	font-family:monospace;
+	justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  background-color: #171717;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.title-login {
+	background-image: url('loss.jpg');
+	justify-content: center;
+font-family:monospace;
+  text-align: center;
+  margin: 2em;
+   color: rgb(2, 229, 223);
+  font-size: 1.2em;
+
+}
+
+.field {
+	
+	font-family:monospace;
+ vertical-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: rgb(2, 8, 196); 
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+
+}
+
+.input-icon {
+font-family:monospace;
+  width: 1.3em;
+  height: 1.3em;
+  color: rgb(2, 8, 196);
+  margin-left: 10px;
+justify-content: center;
+}
+
+.input-field {
+font-family:monospace;
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: rgb(253, 253, 253);
+justify-content: center;
+}
+
+.input-field:hover  { color:rgb(2, 229, 223); font-family:monospace;}
+
+.form .box-btn {
+ font-family:monospace;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  margin: 25px 0;
+  padding: 0 5px;
+
+}
+
+.btn-login {
+font-family:monospace;
+  width: 50%;
+  background-image:linear-gradient(150deg, #024075 0%, #00d2d0 100%); 
+  color: #fff;
+  text-decoration:none;
+  padding: 0.4em 1em;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .4s;
+  font-size: 0.9em;
+  float: left;
+  margin-right: 5%;
+
+}
+    body {
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+			font-family:monospace;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+			justify-content: center;
+        }
+
+
+
+
+
+
+.btn-login:nth-of-type(2n+0) { margin-right:0;font-family:monospace; }
+.btn-login:hover { background-image: linear-gradient(150deg, #00b8bf 0%, #002646 100%); color:rgb(255, 255, 255);font-family:monospace; }

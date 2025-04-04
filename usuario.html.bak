@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Usuário</title>
+        <link rel="stylesheet" href="cssusuario.css">
+</head>
+<body background="back.png" align="left">
+    <div class="header">
+        <span class="username">E-loss</span>
+    </div>
+    <div class="container" align="center">
+        <h1>Perfil do Usuário</h1>
+        <img src="URL_DA_IMAGEM_DO_USUÁRIO" alt="Foto do Usuário" class="profile-pic">
+        <input type="file" accept="image/*" onchange="previewImage(event)"></input>
+	    <br>
+		<br>
+		<br>
+		<br>
+       
+            <a href="novasenha.html" class="btn-login">ALTERAR SENHA</a>
+			<br><br>
+			
+			<br>
+			
+			<br>
+			
+			<a href="amenu.html" class="bui">Voltar</a>
+        
+    </div>
+
+    <script>
+        function alterarSenha() {
+            
+            // Aqui você pode adicionar a lógica para alterar a senha
+        }
+
+        function previewImage(event) {
+            const reader = new FileReader();
+            reader.onload = function() {
+                const output = document.querySelector('.profile-pic');
+                output.src = reader.result;
+            }
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
+</body>
+</html>

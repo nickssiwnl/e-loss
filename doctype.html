@@ -1,0 +1,73 @@
+
+<html>
+    <head background="black">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title color="white"> Página de Login </title>
+    </head>
+    
+    <body background="back.png" align="left">
+        <div class="container" id="container"> 
+            <div class="form-container sign-up">
+                <form color="white" method="post" action="doctype.php">
+                    <h1> Crie sua conta </h1>
+                        <div class="">
+                            <a href="" class=""><i class=""></i></a>
+                            <a href="" class=""><i class=""></i></a>
+                            <a href="" class=""><i class=""></i></a>
+                            <a href="" class=""><i class=""></i></a>
+                        </div>
+<br>
+                    <span> Digite um email e uma senha </span>
+
+                    <input type="text" placeholder="Name" name="nome"> 
+                    <input type="text" placeholder="Email" name="email">
+                    <input type="password" placeholder="Password" name="senha">
+                    <button type = "submit" name="cadastro"> Cadastrar </button>
+
+                </form>
+            </div>
+
+            <div class="form-container sign-in">
+                <form method="post" action="doctype2.php">
+                    <h1> Login </h1>
+                        <div class="">
+                            <a href="" class=""><i class=""></i></a>
+                            <a href="" class=""><i class=""></i></a>
+                            <a href="" class=""><i class=""></i></a> 
+                            <a href="" class=""><i class=""></i></a>
+                        </div>
+<br>
+                    <span> Digite seu email e senha </span>
+
+                    <input type="text" placeholder="Email" name="email">
+                    <input type="password" placeholder="Password" name="senha">
+                    <a href="novasenha.html"> Esqueceu sua senha? </a>
+                    <button type="submit" name="login"> Logar </button>
+                </form>
+            </div>
+
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+
+                        <h1> Bem vindo! </h1>
+                            <p> Digite seus dados para acessar </p>
+                                <button class="hidden" id="log" onclick="window.location.reload();"> Entrar </button>
+                    </div>
+                    
+                    <div class="toggle-panel toggle-right">
+                        <h1> Olá, Usuario! </h1>
+                            <p> Digite seus dados para acessar </p> 
+                                <button class="hidden" id="register"> Cadastre-se </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"> </script>
+    </body>
+</html>

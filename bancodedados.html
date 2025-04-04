@@ -1,0 +1,72 @@
+<?php
+include("../conecta.php");
+$query = "SELECT * FROM trava";
+$res = mysqli_query($dbc,"SELECT * FROM trava");
+
+if(mysqli_num_rows($res) >0)
+{
+    echo "Tabela com registros:";
+}
+else
+{
+    echo "Sem dados para exibir";
+}
+mysqli_close($dbc); 
+?>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title color="white">Banco de Dados</title>
+    <link rel="stylesheet" href="cssbanco.css">
+</head>
+<body background="back.png">
+    <div class="header">
+        <span class="username">Usuário: João</span>
+    </div>
+    
+    <div class="container">
+        <h1 color="white">Banco de Dados</h1>
+        
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>DATA</th>
+                <th>HORA</th>
+            </tr>
+   
+        </table>
+       
+      <?php
+        while ($dados=mysqli_fetch_assoc($res))
+        {
+            echo "<tr>";
+            echo "<td>".$dados['idsenha']."</td>";
+            echo "<td>".$dados['data']."</td>";
+            echo "<td>".$dados['hora']."</td>";
+        }
+    ?>
+
+        <div class="buttons">
+            <button onclick="window.location.href='amenu.html';"> Voltar ao Menu </button>
+            <button onclick="excluirDados();">Excluir Dados</button>
+            <button onclick="alterarDados();">Alterar Dados</button>
+        </div>
+    
+    </div>
+
+    <script>
+        function excluirDados() {
+            alert('Função para excluir dados do banco de dados.');
+            // Aqui você pode adicionar a lógica para excluir dados
+        }
+
+        function alterarDados() {
+            alert('Função para alterar dados do banco de dados.');
+            // Aqui você pode adicionar a lógica para alterar dados
+        }
+    </script>
+</body>
+</html>

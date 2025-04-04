@@ -1,0 +1,44 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+ * {
+ 
+    font-family: 'Montserrat', sans-serif;
+	
+}
+ body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('eloss.jpg');
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .content {
+			color:02c1e3;
+            margin-left: 20px;
+        }
+        h1 {
+			color: 02c1e3;
+            font-size: 4em;
+            margin: 0;
+        }
+        p {
+			color: 02c1e3;
+            font-size: 1.5em;
+        }
+		.login-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #041c40;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-button:hover {
+            background-color: #0056b3;
+        }

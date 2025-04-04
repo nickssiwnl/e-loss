@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<link rel="stylesheet" href="csstrava.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trava Eletrônica</title>
+    
+</head>
+<body background="back.png" align="center">
+    <header>
+	
+        <h1>Trava Eletrônica</h1>
+    </header>
+    <div class="container main">
+        <img src="imgtrava.jpg" alt="Trava Eletrônica">
+        <h1>Introdução</h1>
+        <p>A trava eletrônica é um dispositivo de segurança avançado, projetado para proteger propriedades e bens valiosos. Utilizando tecnologia de ponta, ela oferece uma camada adicional de proteção contra invasões e acessos não autorizados.</p>
+        <h1>Descrição</h1>
+        <p>Esta trava eletrônica possui um design robusto e elegante, ideal para residências e empresas. Com funcionalidades como controle remoto, acesso por biometria e integração com sistemas de segurança, ela garante máxima segurança e conveniência para os usuários.</p>
+    <br>	
+	<br>
+	</div>
+	<a href="amenu.html" > Voltar </a>
+	
+	<br>
+		<br>
+			<br>
+				<br>
+					<br>
+						<br>
+							<br>
+								<br>
+		                           <br>
+    <footer>
+	
+        <p>© 2024 E-loss. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

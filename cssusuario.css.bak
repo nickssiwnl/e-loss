@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+	
+}
+
+
+body {
+	         background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background: #041c40;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: left;
+			border-bottom: #77aaff 3px solid;
+        }
+        .header .username {
+            font-weight: bold;
+        }
+        .container {
+    border-radius: 30px;
+    position: relative;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+	color:white;
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            margin-top: 20px;
+            background: #02c1e3;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-pic {
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 150px;
+            border-radius: 50%;
+        }
+        .buttons {
+			color:white;
+			border-radius: 3px;
+			background-color:#02c1e3;
+			align-items: left;
+            justify-content: left;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .buttons button {
+            border-radius: 30px;			
+            padding: 15px 15px;
+            margin-right: 10px;
+            border: none;
+            background-color: #041c41;
+            color: white;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+			border-radius: 30px;
+            background-color: #02c1e3;
+			color: white;
+        }
+        input[type="file"] {
+			  background: #02c1e3;
+			align-items: center;
+            justify-content: center;
+			color:#fff;
+            display: block;
+            margin: 20px auto;
+        }
+		.btn-login {
+
+  
+         background: #041c41; 
+         color: #fff;
+         text-decoration:none;
+         border-radius: 8px;
+			align-items: center;
+            justify-content: center;
+}
+   .jui
+{
+	
+	
+	padding:  1em;
+  
+  background-color: #041c40;
+  text-decoration: none;
+  
+  font-size: 1em;
+  color: #fff;
+  border-radius: 30px;
+  width: 130px;
+height: 60px;
+	
+	
+}
+
+.bui
+{
+	
+	
+	padding:  1em;
+  color:white;
+  background-color: #041c40;
+  text-decoration: none;
+  
+  font-size: 1em;
+  color: #fff;
+  border-radius: 30px;
+  width: 170px;
+height: 60px;
+	
+	
+}
